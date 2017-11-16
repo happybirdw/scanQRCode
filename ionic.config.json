@@ -1,5 +1,8 @@
 {
   "name": "scanQRCode",
-  "app_id": "",
-  "type": "ionic-angular"
+  "app_id": "740c923a",
+  "type": "ionic-angular",
+  "integrations": {
+    "cordova": {}
+  }
 }
