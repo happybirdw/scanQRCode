@@ -6,6 +6,7 @@ import { StatusBar } from '@ionic-native/status-bar';
 
 import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
+import { AuthPage } from '../pages/auth/auth';
 
 import { NgxQRCodeModule } from 'ngx-qrcode2';
 import { BarcodeScanner } from '@ionic-native/barcode-scanner';
@@ -13,7 +14,8 @@ import { BarcodeScanner } from '@ionic-native/barcode-scanner';
 @NgModule({
   declarations: [
     MyApp,
-    HomePage
+    HomePage,
+    AuthPage
   ],
   imports: [
     BrowserModule,
@@ -23,7 +25,8 @@ import { BarcodeScanner } from '@ionic-native/barcode-scanner';
   bootstrap: [IonicApp],
   entryComponents: [
     MyApp,
-    HomePage
+    HomePage,
+    AuthPage
   ],
   providers: [
     StatusBar,
